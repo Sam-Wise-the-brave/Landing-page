@@ -10,6 +10,8 @@
     background-color: #1F2937;
     color: white;
     height: 60px;
+    max-width: 1250px;
+    margin:auto
     }
 
 .header-links{
@@ -20,11 +22,62 @@
     display:flex;
     gap:10px;
     margin-top: 20px;
-    margin-right: 10px;
+    margin-right: 80px;
 }
 
 .left{
-    margin-left: 10px;
+    margin-left: 80px;
     Margin-top:15px;
     font-weight: bold;
 }
+
+.second-container{
+    display:flex;
+    justify-content: space-between;
+    background-color: #1F2937;
+    color: white;
+    height: 300px;
+    max-width: 1250px;
+    margin:auto
+    }
+
+.left-icons{
+    display:flex;
+    flex-direction: column;
+    margin-left: 80px;
+    max-width: 400px;
+    gap: 10px;
+    margin-top: 50px;
+}
+
+#second-header{
+    max-width:250px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.small-header{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+#button{
+    max-width:90px;
+    height: 30px;
+    background-color: #3882f6;
+    color: white;
+    border-radius: 10%;
+    border:none;
+    font-weight: bold; 
+}
+
+.right-img{
+    margin-right:100px;
+    margin-top:50px;
+}
+
+.hero{
+    background-color: #1F2937;
+    height: 400px;
+}
+
