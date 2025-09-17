@@ -21,13 +21,13 @@
 .right{
     display:flex;
     gap:10px;
-    margin-top: 20px;
-    margin-right: 80px;
+    margin-top: 30px;
+    margin-right: 280px;
 }
 
 .left{
-    margin-left: 80px;
-    Margin-top:15px;
+    margin-left: 220px;
+    Margin-top:25px;
     font-weight: bold;
 }
 
@@ -38,7 +38,8 @@
     color: white;
     height: 300px;
     max-width: 1250px;
-    margin:auto
+    margin:auto;
+    margin-left: 150px;
     }
 
 .left-icons{
@@ -68,16 +69,37 @@
     color: white;
     border-radius: 10%;
     border:none;
-    font-weight: bold; 
+    font-weight: bold;
 }
 
 .right-img{
-    margin-right:100px;
+    margin-right:280px;
     margin-top:50px;
 }
 
 .hero{
     background-color: #1F2937;
     height: 400px;
+}
+
+#randomheader{
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    text-align: center;
+    margin-top: 40px;
+}
+
+#box{
+    width: 100px;
+    height: 100px;
+    border-style: solid;
+}
+
+.box-container{
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+    margin-top: 50px;
 }
 
