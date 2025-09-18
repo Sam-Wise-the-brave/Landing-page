@@ -91,15 +91,29 @@
 }
 
 #box{
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     border-style: solid;
+    border-color: #3882f6;
+    border-radius: 20%;
 }
 
 .box-container{
     display: flex;
     justify-content: center;
     gap: 52px;
+    text-align: center;
     margin-top: 50px;
+    max-width: 1250px;
+}
+
+.item{
+    max-width:150px;
+    font-size: 13px;
+}
+
+.thor-container{
+    background-color: #D3D3D3;
+    height: 250px;
 }
 
